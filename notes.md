@@ -1,4 +1,22 @@
 # Notes
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Notes](#notes)
+	- [Resources](#resources)
+	- [Terminal](#terminal)
+	- [Git](#git)
+	- [HTML](#html)
+		- [Tags](#tags)
+		- [General tags](#general-tags)
+		- [Text tags](#text-tags)
+		- [Nesting](#nesting)
+		- [Attributes](#attributes)
+		- [Entities](#entities)
+	- [Css](#css)
+
+<!-- /TOC -->
+
 ## Resources
 * [MDN](https://developer.mozilla.org/en-US/) - Mozilla developer network
 * [Melbourne ipsum](http://www.melbourneipsum.com.au/)
@@ -32,7 +50,7 @@ HTML - Hypertext markup language
   - article - content that is self contained and would make sense out of the page context (ie a new article that can be reposted on different social media)
   - aside - side content
 
-## Tags
+### Tags
 [Full list of html elements from MDN](https://developer.mozilla.org/en/docs/Web/HTML/Element)
 
 ### General tags
@@ -68,7 +86,7 @@ HTML - Hypertext markup language
   - alt: alternate text
 
 
-## Nesting
+### Nesting
 * there are some rules around how you can nest content
   - block level tags can be nested in block level tags
   - inline tags can be nested in block level tags
@@ -77,12 +95,14 @@ HTML - Hypertext markup language
   - block level tags: header, main, section, div, ul, blockquote
   - inline tags: li, a, p, h1, h2...
 
-## Attributes
+### Attributes
 * Attributes define additional behaviour for a tag
 `<a href="">` - the href attribute defines the destination for an anchor tag, it can be used for internal links using the `#` symbol
 
-## Entities
+### Entities
 used to render different symbols
 &amps;: ampersand
 &copy;: copyright logo
 &nbsp;: non breaking space - give me space but dont start a new line
+
+## Css
