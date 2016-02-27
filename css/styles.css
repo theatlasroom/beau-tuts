@@ -1,11 +1,92 @@
 /********************************
 * THIS IS OUR STYLE SHEET
 ********************************/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 @font-face {
   font-family: 'Butler';
-  src url('./butler/Butler_Regular.otf') format('opentype');
+  src url('./butler/Butler_Regular.otf');
 }
 
-/* CSS RULES: h2=selector {styles to be applied} */
-#bio-content h2 {color:red;}
-.movie-title {color:green;}
+/*
+px = pixels: fixed size
+pt - points: fixed
+em - emdash: relative to the block
+rem - relative to the root element
+*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size:10pt;
+  line-height:2em;
+  margin:0;
+}
+
+/*h1, h2, h3 {
+  font-family:'Butler';
+}*/
+
+h1 {
+  font-size:6em;
+}
+h2 {
+  font-size:3em;
+}
+h3 {
+  font-size:2em;
+}
+p, ul, ol, blockquote {
+  font-size:1.5em;
+}
+
+header h1 {
+  font-size:1.5em;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+nav ul {
+  padding:0;
+  margin:0;
+}
+
+nav li {
+  text-decoration: overline;
+  list-style-type: none;
+  padding:1em 1em 1em 0;
+  display:inline;
+}
+
+nav, header, #bio, #movies {
+  padding:2em;
+}
+
+#bio {
+  background:#FF7453;
+  color:#fff;
+}
+
+#bio img {
+  /* Set the image height and make the width relative */
+  height:20em;
+  width:auto;
+  float:left;
+  margin:0 1em 1em 0;
+}
+
+#movies {
+  background:#f1f1f1;
+  color:#333;
+  height:50em;
+}
+
+#movies .movie {
+  float:left;
+  padding:0.25em;
+  position:relative;
+}
+
+.movie .movie-title {
+  font-size:smaller;
+  text-transform: uppercase;
+}

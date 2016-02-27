@@ -21,6 +21,7 @@
 * [MDN](https://developer.mozilla.org/en-US/) - Mozilla developer network
 * [Melbourne ipsum](http://www.melbourneipsum.com.au/)
 * [Markdown](https://daringfireball.net/projects/markdown/)
+* [CSS Tricks](https://css-tricks.com/snippets/css/using-font-face/)
 
 ## Terminal
 * cd - change directory
@@ -108,5 +109,16 @@ used to render different symbols
 &nbsp;: non breaking space - give me space but dont start a new line
 
 ## Css
-Cascading style sheets
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) - Cascading style sheets
+
 * CSS rules have the form <element / selector / id / class > ->  { styles to be applied }
+
+Specifity defines the order in which CSS rules will be applied
+* ids > classes > elements
+
+* box model
+* Positioning
+* Floating
+* Flexbox
+
+[Web safe fonts](https://developer.mozilla.org/en/docs/Web/CSS/font-family)
