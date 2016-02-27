@@ -2,6 +2,7 @@
 ## Resources
 * [MDN](https://developer.mozilla.org/en-US/) - Mozilla developer network
 * [Melbourne ipsum](http://www.melbourneipsum.com.au/)
+* [Markdown](https://daringfireball.net/projects/markdown/)
 
 ## Terminal
 * cd - change directory
@@ -32,6 +33,8 @@ HTML - Hypertext markup language
   - aside - side content
 
 ## Tags
+[Full list of html elements from MDN](https://developer.mozilla.org/en/docs/Web/HTML/Element)
+
 ### General tags
 * div - division of content
 * span - like a division but inline - make sense later
@@ -45,6 +48,25 @@ HTML - Hypertext markup language
 * li - list item
 * blockquote - quote, block of text
 * a - anchor tag
+* br - line break
+* hr - horizontal line
+* table
+  - table: table element
+  - thead: table head
+  - tfoot: table foot
+  - tbody: table body
+  - th: table head column
+  - tr: row
+  - td: column
+* form
+  - form: specify the html form
+  - fieldset: group of form elements
+  - label: label for a form field
+  - input: form field, comes in many types such as text, radio (radio button), checkbox, date, time, range, ....
+* img - images
+  - src: source of the image, can be a local reference or a web url
+  - alt: alternate text
+
 
 ## Nesting
 * there are some rules around how you can nest content
@@ -57,4 +79,10 @@ HTML - Hypertext markup language
 
 ## Attributes
 * Attributes define additional behaviour for a tag
-`<a href="">` - the href attribute defines the destination for an anchor tag
+`<a href="">` - the href attribute defines the destination for an anchor tag, it can be used for internal links using the `#` symbol
+
+## Entities
+used to render different symbols
+&amps;: ampersand
+&copy;: copyright logo
+&nbsp;: non breaking space - give me space but dont start a new line
