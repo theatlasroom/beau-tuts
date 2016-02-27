@@ -98,6 +98,8 @@ HTML - Hypertext markup language
 ### Attributes
 * Attributes define additional behaviour for a tag
 `<a href="">` - the href attribute defines the destination for an anchor tag, it can be used for internal links using the `#` symbol
+* id: unique identifier within a page
+* class: an identifier for a group of elements
 
 ### Entities
 used to render different symbols
@@ -106,3 +108,5 @@ used to render different symbols
 &nbsp;: non breaking space - give me space but dont start a new line
 
 ## Css
+Cascading style sheets
+* CSS rules have the form <element / selector / id / class > ->  { styles to be applied }

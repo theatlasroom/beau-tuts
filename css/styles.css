@@ -3,5 +3,9 @@
 ********************************/
 @font-face {
   font-family: 'Butler';
-  src url('./butler/Butler_Regular.otf') format('opentype'); 
+  src url('./butler/Butler_Regular.otf') format('opentype');
 }
+
+/* CSS RULES: h2=selector {styles to be applied} */
+#bio-content h2 {color:red;}
+.movie-title {color:green;}
