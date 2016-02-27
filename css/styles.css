@@ -1,7 +1,7 @@
 /********************************
 * THIS IS OUR STYLE SHEET
 ********************************/
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700|Libre+Baskerville);
 
 @font-face {
   font-family: 'Butler';
@@ -16,9 +16,10 @@ rem - relative to the root element
 */
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight:100;
   font-size:10pt;
-  line-height:2em;
+  line-height:2.5em;
   margin:0;
 }
 
@@ -27,6 +28,7 @@ body {
 }*/
 
 h1 {
+  font-family: "Libre Baskerville";
   font-size:6em;
 }
 h2 {
@@ -39,10 +41,33 @@ p, ul, ol, blockquote {
   font-size:1.5em;
 }
 
+header {
+  position:relative;
+  height:15em;
+  background-image:url("http://assets2.ignimgs.com/2014/02/10/1280-under-the-skin-posterjpg-1e085b_1280w.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 30% center;
+  /*
+  We can rewrite the background rule in 1 line:
+  background:30% center no-repeat url("http://assets2.ignimgs.com/2014/02/10/1280-under-the-skin-posterjpg-1e085b_1280w.jpg")
+  */
+}
+
 header h1 {
+  position:relative;
+  top:6.5em;
+  padding:0.5em;
+  background:#fff;
+  display:inline-block;
   font-size:1.5em;
   font-weight:bold;
   text-transform: uppercase;
+}
+
+nav {
+  padding:0.5em 2em;
+  background:#c0392b;
 }
 
 nav ul {
@@ -51,18 +76,28 @@ nav ul {
 }
 
 nav li {
-  text-decoration: overline;
   list-style-type: none;
   padding:1em 1em 1em 0;
   display:inline;
+  text-transform: uppercase;
+  font-size:smaller;
 }
 
 nav, header, #bio, #movies {
+  margin:0;
+  width:100%;
   padding:2em;
 }
 
+nav li a,nav li a:visited,nav li a:link {color:#fff;}
+
+.bio-note {
+  font-size:smaller;
+  font-style:italic;
+}
+
 #bio {
-  background:#FF7453;
+  background:#2c3e50;
   color:#fff;
 }
 
@@ -72,15 +107,16 @@ nav, header, #bio, #movies {
   width:auto;
   float:left;
   margin:0 1em 1em 0;
+  display:none; /* hide the image */
 }
 
 #movies {
-  background:#f1f1f1;
+  background:#ecf0f1;
   color:#333;
-  height:50em;
+
 }
 
-#movies .movie {
+#movies .no-bootstrap .movie {
   float:left;
   padding:0.25em;
   position:relative;
@@ -89,4 +125,20 @@ nav, header, #bio, #movies {
 .movie .movie-title {
   font-size:smaller;
   text-transform: uppercase;
+}
+
+/* Styling for anchor tags */
+a:visited, a:link, a {
+  text-decoration:none;
+  color:#333;
+  font-weight:bold;
+}
+
+a:hover, a:active {
+  color:#00B291;
+}
+
+.return-to-top {
+  text-transform: uppercase;
+  font-size:1.5em;
 }

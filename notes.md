@@ -1,4 +1,5 @@
 # Notes
+Just some notes for beau
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -19,19 +20,30 @@
 
 ## Resources
 * [MDN](https://developer.mozilla.org/en-US/) - Mozilla developer network
+* [CSS - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 * [Melbourne ipsum](http://www.melbourneipsum.com.au/)
 * [Markdown](https://daringfireball.net/projects/markdown/)
 * [CSS Tricks](https://css-tricks.com/snippets/css/using-font-face/)
+* [Fontawesome](http://fontawesome.io) - Free SVG icons
+* [Font generator](http://www.fontsquirrel.com/tools/webfont-generator) - transform fonts into web friendly formats to embed in CSS
+* [HTML5 boilerplate](https://html5boilerplate.com/) - good starter template for a html5 webpage
+* [Bootstrap CSS](http://getbootstrap.com/) - Useful components for webpages ie grid layouts, common user interface elements, good default styles etc
+* [Codeacademy](https://www.codecademy.com/learn/web) - Good free tutorials on html / css
+* [Web safe fonts](https://developer.mozilla.org/en/docs/Web/CSS/font-family)
 
 ## Terminal
 * cd - change directory
 * ls - list files / folders
+* mkdir - make a directory (folder)
 
 ## Git
-Central code sharing tool
+Decentralized code collaboration tool
 
-* cloning a repo: git clone <repository-name>
-* committing - saving a series of changes to some code
+* cloning a repo: `git clone <repository-name>`
+* adding: preparing files to be committed `git add <file name>`
+* committing: saving a series of changes to some code `git commit -m 'This is a commit with a message'`
+* pulling: pulling changes from the server / another person `git pull`
+* pushing: sending your changes to a server / another person `git push`
 
 ## HTML
 HTML - Hypertext markup language
@@ -111,14 +123,11 @@ used to render different symbols
 ## Css
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) - Cascading style sheets
 
-* CSS rules have the form <element / selector / id / class > ->  { styles to be applied }
+* CSS rules have the form <element / selector / id / class > ->  { styles to be applied; }
 
-Specifity defines the order in which CSS rules will be applied
-* ids > classes > elements
-
-* box model
-* Positioning
-* Floating
-* Flexbox
-
-[Web safe fonts](https://developer.mozilla.org/en/docs/Web/CSS/font-family)
+* [Specifity](https://developer.mozilla.org/en/docs/Web/CSS/Specificity) - note: avoid using `!important` - its a bad habit to get into and can cause a lot of headaches down the track
+* [box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
+* [Positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+* [Floating](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
+* [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_flexbox_to_lay_out_web_applications) | [Good tutorial on flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Responsive web design](https://developer.mozilla.org/en-US/docs/Web/Guide/Responsive_design) | [Media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
